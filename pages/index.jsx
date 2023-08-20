@@ -31,7 +31,7 @@ const Page = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              idevtier
+              test msg idevtier
             </Heading>
             <p>Developer and designer</p>
           </Box>
