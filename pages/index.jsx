@@ -31,9 +31,9 @@ const Page = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              test msg idevtier
+              idevtier
             </Heading>
-            <p>Developer and designer</p>
+            <p>Python & Rust developer</p>
           </Box>
           <Box
             flexsrink={0}
@@ -58,14 +58,14 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Idevtier is a freelance and a full-stack developer based in
-            Saint-Pretersburg with a passion for building digital services/stuff
+            Idevtier is a full-stack developer based in
+            Saint-Petersburg with a passion for building digital services/stuff
             he wants. He was a knack for all things launching products, from
             planning and designing all the way to solving real-ife problems with
             code. When not online, he loves hanging out with firends. Currently,
-            he is developing his own product called{' '}
-            <NextLink href="/works/documents-time-recorder">
-              <Link>Documents time recorder</Link>
+            he is working in {' '}
+            <NextLink href="/works/pixelplex">
+              <Link>pixelplex</Link>
             </NextLink>
           </Paragraph>
 
@@ -92,13 +92,18 @@ const Page = () => {
             Informatics
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
+            <BioYear>2020 to 2021</BioYear>
+            Work in <Link href="https://3bet.pro/">3bet</Link> on sport plugs detection
+          </BioSection>
+          <BioSection>
+            <BioYear>2021 to 2022</BioYear>
             Work with <Link href="https://haasonline.com">HaasOnline</Link> on
             automating crypto trading bots setup
           </BioSection>
           <BioSection>
             <BioYear>2022 to present</BioYear>
-            Works as a freelance
+            Work in <Link href="https://pixelplex.io">pixelplex</Link> as Python software developer
+            on <Link href="https://pixelplex.io/work/web3-antivirus/">Web3 antivirus</Link>
           </BioSection>
         </Section>
 

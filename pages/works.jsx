@@ -2,8 +2,10 @@ import { Container, Heading, SimpleGrid } from '@chakra-ui/react';
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
-import thumbTimeRecorder from '../public/images/works/timeRecorder.png';
+import thumbPixelplex from '../public/images/works/pixelplex.png';
 import thumbDolorDomum from '../public/images/works/dolorDomum.png';
+import thumbHaasOnline from '../public/images/works/haasOnline.png';
+import thumb3bet from '../public/images/works/3bet.png';
 
 const Works = () => {
   return (
@@ -16,11 +18,11 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
-              id="timeRecorder"
-              title="Time Recorder"
-              thumbnail={thumbTimeRecorder}
+              id="pixelplex"
+              title="Pixelplex"
+              thumbnail={thumbPixelplex}
             >
-              Crossplatform documents time editing recorder
+            Currently working here as Python developer
             </WorkGridItem>
           </Section>
           <Section>
@@ -30,6 +32,24 @@ const Works = () => {
               thumbnail={thumbDolorDomum}
             >
               Simple landing for alternative energy heating
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="HaasOnline"
+              title="HaasOnline"
+              thumbnail={thumbHaasOnline}
+            >
+              Crypto trading bots
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
+              id="3bet"
+              title="3bet"
+              thumbnail={thumb3bet}
+            >
+             Sport plugs detection 
             </WorkGridItem>
           </Section>
         </SimpleGrid>
