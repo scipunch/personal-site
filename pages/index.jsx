@@ -48,7 +48,7 @@ const Page = () => {
               maxWidth="100px"
               display="inline-block"
               borderRadius="full"
-              src="/images/idevtier.jpg"
+              src="/images/idevtier.png"
             />
           </Box>
         </Box>
