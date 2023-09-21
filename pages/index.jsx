@@ -33,7 +33,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Andrey Semenov
             </Heading>
-            <p>Python & Rust developer</p>
+            <p>Python & Rust engineer</p>
           </Box>
           <Box
             flexsrink={0}
