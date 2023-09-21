@@ -25,6 +25,10 @@ const Work = () => {
             </Link>
           </ListItem>
           <ListItem>
+            <Meta>Position</Meta>
+            Python Engineer
+          </ListItem>
+          <ListItem>
             <Meta>Stack</Meta>
             <span>Python, Pandas, Docker</span>
           </ListItem>

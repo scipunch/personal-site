@@ -22,6 +22,10 @@ const Work = () => {
             </Link>
           </ListItem>
           <ListItem>
+            <Meta>Position</Meta>
+            Junior Java Developer
+          </ListItem>
+          <ListItem>
             <Meta>Stack</Meta>
             <span>Java, Kotlin, Spring Boot, Redis, PostgreSQL, Python, Pandas, ScikitLearn</span>
           </ListItem>

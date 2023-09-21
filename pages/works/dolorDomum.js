@@ -25,6 +25,10 @@ const Work = () => {
             </Link>
           </ListItem>
           <ListItem>
+            <Meta>Position</Meta>
+            Freelancer
+          </ListItem>
+          <ListItem>
             <Meta>Stack</Meta>
             <span>JavaScript, React, ChakraUI</span>
           </ListItem>
