@@ -26,7 +26,7 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Position</Meta>
-            Python developer
+            Python Developer
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
