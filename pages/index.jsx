@@ -11,7 +11,7 @@ import {
 import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import Paragraph from '../components/paragraph';
-import { ChevronRightIcon } from '@chakra-ui/icons';
+import { ChevronRightIcon, ExternalLinkIcon } from '@chakra-ui/icons';
 import { BioSection, BioYear } from '../components/bio';
 
 const Page = () => {
@@ -25,13 +25,13 @@ const Page = () => {
           mb={6}
           align="center"
         >
-          Hello, I&apos;m a full-stack developer based in Russia!
+          Hello, I&apos;m a software engineer!
         </Box>
 
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              idevtier
+              Andrey Semenov
             </Heading>
             <p>Python & Rust developer</p>
           </Box>
@@ -58,15 +58,16 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            Idevtier is a full-stack developer based in
-            Saint-Petersburg with a passion for building digital services/stuff
+            Andrey Semenov is a software engineer with a passion for building digital services/stuff
             he wants. He was a knack for all things launching products, from
             planning and designing all the way to solving real-ife problems with
-            code. When not online, he loves hanging out with firends. Currently,
+            code. In addition, he likes to customize operating systems and keyboards.
+            When not online, he loves hanging out with firends. Currently,
             he is working in {' '}
             <NextLink href="/works/pixelplex">
               <Link>pixelplex</Link>
             </NextLink>
+            .
           </Paragraph>
 
           <Box align="center" my={4}>
@@ -93,17 +94,17 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020 to 2021</BioYear>
-            Work in <Link href="https://3bet.pro/">3bet</Link> on sport plugs detection
+            Work in <NextLink href="/works/3bet"><Link>3bet</Link></NextLink> on sport plugs detection
           </BioSection>
           <BioSection>
             <BioYear>2021 to 2022</BioYear>
-            Work with <Link href="https://haasonline.com">HaasOnline</Link> on
+            Work with <NextLink href="/works/haasOnline"><Link>Haas Online</Link></NextLink> on
             automating crypto trading bots setup
           </BioSection>
           <BioSection>
             <BioYear>2022 to present</BioYear>
-            Work in <Link href="https://pixelplex.io">pixelplex</Link> as Python software developer
-            on <Link href="https://pixelplex.io/work/web3-antivirus/">Web3 antivirus</Link>
+            Work in <Link href="https://pixelplex.io">pixelplex<ExternalLinkIcon /></Link> as Python software developer
+            on <NextLink href="/works/pixelplex"><Link>Web3 antivirus</Link></NextLink>
           </BioSection>
         </Section>
 

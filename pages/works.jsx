@@ -36,7 +36,7 @@ const Works = () => {
           </Section>
           <Section>
             <WorkGridItem
-              id="HaasOnline"
+              id="haasOnline"
               title="HaasOnline"
               thumbnail={thumbHaasOnline}
             >
