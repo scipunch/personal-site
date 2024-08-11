@@ -63,9 +63,9 @@ const Page = () => {
             planning and designing all the way to solving real-ife problems with
             code. In addition, he likes to customize operating systems and keyboards.
             When not online, he loves hanging out with firends. Currently,
-            he is working in {' '}
-            <NextLink href="/works/pixelplex">
-              <Link>pixelplex</Link>
+            he is working on {' '}
+            <NextLink href="/works/cyberpass">
+              <Link>cyberpass</Link>
             </NextLink>
             .
           </Paragraph>
@@ -102,9 +102,14 @@ const Page = () => {
             automating crypto trading bots setup
           </BioSection>
           <BioSection>
-            <BioYear>2022 to present</BioYear>
-            Work in <Link href="https://pixelplex.io">pixelplex<ExternalLinkIcon /></Link> as Python software developer
+            <BioYear>2022 to 2024</BioYear>
+            Work in <Link href="https://pixelplex.io">pixelplex<ExternalLinkIcon /></Link> as senior Python software engineer
             on <NextLink href="/works/pixelplex"><Link>Web3 antivirus</Link></NextLink>
+          </BioSection>
+          <BioSection>
+            <BioYear>2024 to present</BioYear>
+            Work as lead software developer
+            on <NextLink href="/works/cyberpass"><Link>cyberpass</Link></NextLink>
           </BioSection>
         </Section>
 
