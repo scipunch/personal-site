@@ -15,7 +15,7 @@ const Work = () => {
           Web3 Antivirus installs as a browser extension. It vets the parties and properties you interact with on Web3 to warn you before you take potentially dangerous actions.
         </P>
         <P>
-          Here I&apos;ve been analyzing smart contracts for almost a year using AST and IR analysis in Python with custom algorithms and unique techniques. In addition, I was responsible for a number of DE pipelines for processing project logos and tokens, terrabytes of NFT&apos;s media and malicious sites. After all with my help the project grown from 10k of users til the 20k, also most of the python code base was fixed and well tested. So I hired two new devs and left the company to start my own projects.
+          Here I&apos;ve been analyzing smart contracts for almost a year using AST and IR analysis in Python with custom algorithms and unique techniques. In addition, I was responsible for a number of DE pipelines for processing project logos and tokens, terrabytes of NFT&apos;s media and malicious sites. After all with my help the project has grown from 10k of users til the 20k, also most of the python code base was fixed and well tested. So I hired two new devs and left the company to start my own projects.
         </P>
         <List ml={4} my={4}>
           <ListItem>
