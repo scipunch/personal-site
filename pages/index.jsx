@@ -118,7 +118,7 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Music, Snowboarding, hackathons, movies and OS customization
+            Hi-Res Music, Snowboarding, hackathons, OS customization, bouldering, Coffee and motorcycling
           </Paragraph>
         </Section>
       </Container>
