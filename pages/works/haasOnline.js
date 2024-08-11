@@ -15,7 +15,7 @@ const Work = () => {
           Crypto trading bots automation
         </P>
         <P>
-          I&apos;ve been automating crypto bots setup to make that process as fast and as easy as possible. We&apos;ve made a lot of tests, found great strategies and share them with our clients.
+          I&apos;ve been automating crypto bots setup to make that process as fast and as easy as possible. We&apos;ve made a lot of tests, found great strategies and share them with our clients. So I&apos;ve helped dozens of traders to come out on top by 4-6 percent of their bank. Also improved community by providing instructions and guides in automation of Haas platform.
         </P>
         <List ml={4} my={4}>
           <ListItem>
