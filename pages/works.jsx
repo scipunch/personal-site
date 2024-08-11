@@ -6,6 +6,7 @@ import thumbPixelplex from '../public/images/works/pixelplex.png';
 import thumbDolorDomum from '../public/images/works/dolorDomum.png';
 import thumbHaasOnline from '../public/images/works/haasOnline.png';
 import thumb3bet from '../public/images/works/3bet.png';
+import thumbCyberpass from '../public/images/works/cyberpass_1.png';
 
 const Works = () => {
   return (
@@ -18,11 +19,20 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem
+              id="cyberpass"
+              title="Cybperass"
+              thumbnail={thumbCyberpass}
+            >
+              Currently working here as lead software developer
+            </WorkGridItem>
+          </Section>
+          <Section>
+            <WorkGridItem
               id="pixelplex"
               title="Pixelplex"
               thumbnail={thumbPixelplex}
             >
-            Currently working here as Python developer
+              Senior Python developer
             </WorkGridItem>
           </Section>
           <Section>
@@ -49,7 +59,7 @@ const Works = () => {
               title="3bet"
               thumbnail={thumb3bet}
             >
-             Sport plugs detection 
+              Sport plugs detection
             </WorkGridItem>
           </Section>
         </SimpleGrid>

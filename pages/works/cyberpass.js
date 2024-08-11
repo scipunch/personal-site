@@ -28,10 +28,12 @@ const Work = () => {
           </ListItem>
         </List>
 
-        <WorkImage src="/images/works/cyberpass_1.png" alt="Cyberpass superuser" />
-        <WorkImage src="/images/works/cyberpass_2.png" alt="Cyberpass manager" />
+        <List my={4}>
+          <WorkImage src="/images/works/cyberpass_1.png" alt="Cyberpass superuser" />
+          <WorkImage src="/images/works/cyberpass_2.png" alt="Cyberpass manager" />
+        </List>
       </Container>
-    </Layout>
+    </Layout >
   )
 }
 
