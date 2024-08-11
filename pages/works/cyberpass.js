@@ -30,7 +30,7 @@ const Work = () => {
 
         <List my={4}>
           <WorkImage src="/images/works/cyberpass_1.png" alt="Cyberpass superuser" />
-          <P align={"center"} mb={4}>We have CRM for the superuser that helps to manage main entities of the system</P>
+          <P align={"center"} mb={20}>We have CRM for the superuser that helps to manage main entities of the system</P>
           <WorkImage src="/images/works/cyberpass_2.png" alt="Cyberpass manager" />
           <P align={"center"}>This is a general screen for the actual managers in the clubs</P>
         </List>
