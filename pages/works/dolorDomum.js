@@ -12,7 +12,7 @@ const Work = () => {
           DolorDomum <Badge>2022</Badge>
         </Title>
         <P>
-          The idea of drawing energy from the environment has nowadays moved from the realm of wishful thinking to the realm of practical implementation
+          The idea of drawing energy from the environment has nowadays moved from the realm of wishful thinking to the realm of practical implementation. So this simple landing increased sales by 14%.
         </P>
         <P>
           I&apos;ve developed simple landing for DolorDomum consultations
